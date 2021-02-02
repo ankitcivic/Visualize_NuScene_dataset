@@ -60,9 +60,8 @@ The Radar PCD is a nx18 matric that stores x y z dyn_prop id rcs vx vy vx_comp v
 To know more visit https://github.com/nutonomy/nuscenes-devkit/blob/5325d1b400950f777cd701bdd5e30a9d57d2eaa8/python-sdk/nuscenes/utils/data_classes.py#L259:1
 
 You can colorize the points based on various parameter. We will explore the following
--Height
--Velocity
-
+- height of the points
+- velocity of the points
 We will visualize each one of them below
 - Heights of the points
 ![Visualizing_Radar_pcd_height](https://github.com/ankitcivic/Visualize_NuScene_dataset/blob/main/images/radarpcd_height.jpg)
