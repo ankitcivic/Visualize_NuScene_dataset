@@ -24,3 +24,8 @@ $ pip3 install nuscene-devkit
 Launch Jupyternotebook
 ```sh
 $ python -m notebook
+
+# Visualize a random image from the dataset
+run the file visualize_random_image
+give the correct path of sample which you want to visualize
+![Visualizing a random image from CAM_FRONT](https://github.com/ankitcivic/Visualize_NuScene_dataset/blob/main/images/visualize_image.jpg)
