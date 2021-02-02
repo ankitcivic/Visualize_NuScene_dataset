@@ -71,5 +71,13 @@ for this we will first calculate the resultant velocity of the point
 
 ![Visualizing](https://github.com/ankitcivic/Visualize_NuScene_dataset/blob/main/images/radarpcd_velocity.jpg)
 
+# Ploting Lidar PCD and Radar PCD on an image
+For this we will use the NuScene Devkit
+Run the file Plot_PCD_to_Image
 
+-Ploting Lidar PCD to an image
+![Visualizing](https://github.com/ankitcivic/Visualize_NuScene_dataset/blob/main/images/lidar_image.jpg)
+
+-Ploting Radar PCD to an image
+![Visualizing](https://github.com/ankitcivic/Visualize_NuScene_dataset/blob/main/images/lidar_image.jpg)
 
