@@ -28,7 +28,7 @@ $ python -m notebook
 ```
 
 # Visualize a random image from the dataset
-run the file visualize_random_image and give the correct path of sample folder which you want to visualize
+run the file visualize_random_image and give the correct path of sample folder which you want to visualize <br />
 The algorithm will select a random file and display a new image eachtime you run the code
 ![Visualizing a random image from CAM_FRONT](https://github.com/ankitcivic/Visualize_NuScene_dataset/blob/main/images/visualize_image.jpg)
 
@@ -56,7 +56,7 @@ To get this plot run the file lidarpcd_semantic
 ![Visualizing Lidar PCD_colorize_semantic](https://github.com/ankitcivic/Visualize_NuScene_dataset/blob/main/images/lidarpcd_semantic.jpg)
 
 # Visualize Radar PCD from the dataset
-The Radar PCD is a nx18 matric that stores x y z dyn_prop id rcs vx vy vx_comp vy_comp is_quality_valid ambig_state x_rms y_rms invalid_state pdh0 vx_rms vy_rms
+The Radar PCD is a nx18 matric that stores x y z dyn_prop id rcs vx vy vx_comp vy_comp is_quality_valid ambig_state x_rms y_rms invalid_state pdh0 vx_rms vy_rms <br />
 To know more visit https://github.com/nutonomy/nuscenes-devkit/blob/5325d1b400950f777cd701bdd5e30a9d57d2eaa8/python-sdk/nuscenes/utils/data_classes.py#L259:1
 
 You can colorize the points based on various parameter. We will explore the following
@@ -72,12 +72,20 @@ for this we will first calculate the resultant velocity of the point
 ![Visualizing](https://github.com/ankitcivic/Visualize_NuScene_dataset/blob/main/images/radarpcd_velocity.jpg)
 
 # Ploting Lidar PCD and Radar PCD on an image
-For this we will use the NuScene Devkit
-Run the file Plot_PCD_to_Image
+For this we will use the NuScene Devkit. <br /> Run the file Plot_PCD_to_Image.
 
 -Ploting Lidar PCD to an image
 ![Visualizing](https://github.com/ankitcivic/Visualize_NuScene_dataset/blob/main/images/lidar_image.jpg)
 
 -Ploting Radar PCD to an image
 ![Visualizing](https://github.com/ankitcivic/Visualize_NuScene_dataset/blob/main/images/lidar_image.jpg)
+
+# license
+Copyright (C) 2020 Ankit Verma
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program. If not, see http://www.gnu.org/licenses/
 
