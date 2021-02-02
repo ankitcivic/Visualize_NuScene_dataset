@@ -1,4 +1,4 @@
-# Visuzlization of Lidar Point Clound and Radar Point cloud of Nuscenes Mini Data Set 
+# Visuzlization of Lidar Point Cloud and Radar Point cloud of Nuscenes Mini Data Set 
 
 Hi, I am Ankit Verma, graduate student at CU ICAR. This repository enables you to visualize and get started with NuScene dataset.
 
@@ -39,13 +39,38 @@ The Lidar PCD is a nx4 matric that stores x y z intensity
 
 ![Visualizing Lidar PCD](https://github.com/ankitcivic/Visualize_NuScene_dataset/blob/main/images/visualize_lidarpcd.jpg)
 
-You can colorize the points based on the following 3 infromation
+You can colorize the points based on the following 3 Parameters
 - Height of the points
+- Intesity of the points
+- Semantic label of the points
+
+We will visualize each one of them below
+- Heights of the points
 To get this plot run the file lidarpcd_height
-![Visualizing Lidar PCD](https://github.com/ankitcivic/Visualize_NuScene_dataset/blob/main/images/lidarpcd_height.jpg)
+![Visualizing Lidar PCD_colorize_height](https://github.com/ankitcivic/Visualize_NuScene_dataset/blob/main/images/lidarpcd_height.jpg)
 - Intensity of the points
 To get this plot run the file lidarpcd_intensity
-![Visualizing Lidar PCD](https://github.com/ankitcivic/Visualize_NuScene_dataset/blob/main/images/lidarpcd_intensity.jpg)
+![Visualizing Lidar PCD_colorize_intensity](https://github.com/ankitcivic/Visualize_NuScene_dataset/blob/main/images/lidarpcd_intensity.jpg)
 - Semantic label of the points
 To get this plot run the file lidarpcd_semantic
-![Visualizing Lidar PCD](https://github.com/ankitcivic/Visualize_NuScene_dataset/blob/main/images/lidarpcd_semantic.jpg)
+![Visualizing Lidar PCD_colorize_semantic](https://github.com/ankitcivic/Visualize_NuScene_dataset/blob/main/images/lidarpcd_semantic.jpg)
+
+# Visualize Radar PCD from the dataset
+The Radar PCD is a nx18 matric that stores x y z dyn_prop id rcs vx vy vx_comp vy_comp is_quality_valid ambig_state x_rms y_rms invalid_state pdh0 vx_rms vy_rms
+To know more visit https://github.com/nutonomy/nuscenes-devkit/blob/5325d1b400950f777cd701bdd5e30a9d57d2eaa8/python-sdk/nuscenes/utils/data_classes.py#L259:1
+
+You can colorize the points based on various parameter. We will explore the following
+-Height
+-Velocity
+
+We will visualize each one of them below
+- Heights of the points
+![Visualizing_Radar_pcd_height](https://github.com/ankitcivic/Visualize_NuScene_dataset/blob/main/images/radarpcd_height.jpg)
+
+- Velocity of the points
+for this we will first calculate the resultant velocity of the point
+
+![Visualizing](https://github.com/ankitcivic/Visualize_NuScene_dataset/blob/main/images/radarpcd_velocity.jpg)
+
+
+
