@@ -1,4 +1,4 @@
-# Visuzlization of Nuscenes Mini Data Set 
+# Visuzlization of Lidar Point Clound and Radar Point cloud of Nuscenes Mini Data Set 
 
 Hi, I am Ankit Verma, graduate student at CU ICAR. This repository enables you to visualize and get started with NuScene dataset.
 
