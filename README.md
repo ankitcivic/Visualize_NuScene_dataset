@@ -31,3 +31,5 @@ $ python -m notebook
 run the file visualize_random_image and give the correct path of sample folder which you want to visualize
 The algorithm will select a random file and display a new image eachtime you run the code
 ![Visualizing a random image from CAM_FRONT](https://github.com/ankitcivic/Visualize_NuScene_dataset/blob/main/images/visualize_image.jpg)
+
+![Visualizing a random image from CAM_FRONT](https://github.com/ankitcivic/Visualize_NuScene_dataset/blob/main/images/visualize_image2.jpg)
