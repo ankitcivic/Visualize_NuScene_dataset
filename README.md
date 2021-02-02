@@ -24,6 +24,7 @@ $ pip3 install nuscene-devkit
 Launch Jupyternotebook
 ```sh
 $ python -m notebook
+```
 
 # Visualize a random image from the dataset
 run the file visualize_random_image
