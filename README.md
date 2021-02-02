@@ -11,6 +11,7 @@ Hi, I am Ankit Verma, graduate student at CU ICAR. This repository enables you t
   - Jupyter notebook
   - pip3
   - python3
+  - opencv
  
 # Steps
 Install Juypter Notebook 
@@ -27,6 +28,6 @@ $ python -m notebook
 ```
 
 # Visualize a random image from the dataset
-run the file visualize_random_image
-give the correct path of sample which you want to visualize
+run the file visualize_random_image and give the correct path of sample folder which you want to visualize
+The algorithm will select a random file and display a new image eachtime you run the code
 ![Visualizing a random image from CAM_FRONT](https://github.com/ankitcivic/Visualize_NuScene_dataset/blob/main/images/visualize_image.jpg)
