@@ -41,8 +41,11 @@ The Lidar PCD is a nx4 matric that stores x y z intensity
 
 You can colorize the points based on the following 3 infromation
 - Height of the points
+To get this plot run the file lidarpcd_height
 ![Visualizing Lidar PCD](https://github.com/ankitcivic/Visualize_NuScene_dataset/blob/main/images/lidarpcd_height.jpg)
 - Intensity of the points
+To get this plot run the file lidarpcd_intensity
 ![Visualizing Lidar PCD](https://github.com/ankitcivic/Visualize_NuScene_dataset/blob/main/images/lidarpcd_intensity.jpg)
 - Semantic label of the points
+To get this plot run the file lidarpcd_semantic
 ![Visualizing Lidar PCD](https://github.com/ankitcivic/Visualize_NuScene_dataset/blob/main/images/lidarpcd_semantic.jpg)
