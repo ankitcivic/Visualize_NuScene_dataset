@@ -78,7 +78,7 @@ For this we will use the NuScene Devkit. <br /> Run the file Plot_PCD_to_Image.
 ![Visualizing](https://github.com/ankitcivic/Visualize_NuScene_dataset/blob/main/images/lidar_image.jpg)
 
 -Ploting Radar PCD to an image
-![Visualizing](https://github.com/ankitcivic/Visualize_NuScene_dataset/blob/main/images/lidar_image.jpg)
+![Visualizing](https://github.com/ankitcivic/Visualize_NuScene_dataset/blob/main/images/radar_image.jpg)
 
 # license
 Copyright (C) 2021 Ankit Verma
